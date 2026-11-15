@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://c8hy04mmdwphd"]
+
+[ext_resource type="PackedScene" uid="uid://7ji73e00g6ts" path="res://level_3.tscn" id="1_phwid"]
+[ext_resource type="Texture2D" uid="uid://u7qqcp25ytu2" path="res://Screenshot 2026-11-14 at 3.04.08 PM.png" id="2_b8vmh"]
+[ext_resource type="Texture2D" uid="uid://cm7u8uagkd3a3" path="res://exit.jpeg" id="3_7o5vv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfdnw"]
+atlas = ExtResource("2_b8vmh")
+region = Rect2(944, 96, 128, 136)
+
+[node name="Level3" unique_id=318147439 instance=ExtResource("1_phwid")]
+
+[node name="_Sprite2D_310" type="Sprite2D" parent="Ladder" parent_id_path=PackedInt32Array(1098069970) index="1" unique_id=1442813951]
+texture_filter = 1
+position = Vector2(-67, -274)
+texture = SubResource("AtlasTexture_kfdnw")
+centered = false
+
+[node name="_Sprite2D_311" type="Sprite2D" parent="Ladder" parent_id_path=PackedInt32Array(1098069970) index="2" unique_id=715457546]
+texture_filter = 1
+position = Vector2(-69, -411)
+texture = SubResource("AtlasTexture_kfdnw")
+centered = false
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="199" unique_id=1172737292]
+position = Vector2(493, -1087)
+scale = Vector2(0.12600277, 0.13670567)
+texture = ExtResource("3_7o5vv")

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://ltveqf2pov2x"]
+
+[ext_resource type="PackedScene" uid="uid://domd0lsiwsquc" path="res://city_level.tscn" id="1_x4wrg"]
+[ext_resource type="Texture2D" uid="uid://chk35qre7wrx0" path="res://Santa.png" id="2_6p5qb"]
+
+[node name="CityFinale" unique_id=1882626146 instance=ExtResource("1_x4wrg")]
+
+[node name="RoofNumber" parent="Roof0" parent_id_path=PackedInt32Array(357584647) index="371" unique_id=83566808]
+metadata/_edit_use_anchors_ = true
+
+[node name="RoofNumber" parent="Roof1" parent_id_path=PackedInt32Array(1536886916) index="371" unique_id=1117063587]
+metadata/_edit_use_anchors_ = true
+
+[node name="RoofNumber" parent="Roof2" parent_id_path=PackedInt32Array(2111357646) index="371" unique_id=970611992]
+metadata/_edit_use_anchors_ = true
+
+[node name="RoofNumber" parent="Roof3" parent_id_path=PackedInt32Array(834676101) index="371" unique_id=2096149096]
+metadata/_edit_use_anchors_ = true
+
+[node name="RoofNumber" parent="Roof4" parent_id_path=PackedInt32Array(1709243398) index="371" unique_id=1127108359]
+metadata/_edit_use_anchors_ = true
+
+[node name="Goal" parent="." index="237" unique_id=2052865279]
+text = "YOU'RE FREE!!!!🎉
+"
+
+[node name="_Sprite2D_9" type="Sprite2D" parent="VisibleClouds" parent_id_path=PackedInt32Array(1159116983) index="2" unique_id=536479714]
+texture_filter = 1
+position = Vector2(1058, -31)
+scale = Vector2(0.23203135, 0.36093748)
+texture = ExtResource("2_6p5qb")

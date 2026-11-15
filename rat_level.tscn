@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://glhe6pkbiil7"]
+
+[ext_resource type="PackedScene" path="res://rat_level_base.tscn" id="1_1356c"]
+
+[node name="RatRun" unique_id=1814884515 instance=ExtResource("1_1356c")]
+
+[node name="Island1" parent="." index="165" unique_id=1058782405]
+position = Vector2(260, 646)
+
+[node name="Island2" parent="." index="166" unique_id=589348492]
+position = Vector2(554, 495)
+
+[node name="Island3" parent="." index="167" unique_id=565140483]
+position = Vector2(976, 591)
+
+[node name="Island4" parent="." index="168" unique_id=910182954]
+position = Vector2(1446, 531)

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://cfoqeyiy6c012"]
+
+[ext_resource type="Texture2D" uid="uid://b2h05lslf2wju" path="res://Slime_still.png" id="1_277ls"]
+
+[ext_resource type="Script" path="res://character_body_2d_2.gd" id="2_player_script"]
+
+[sub_resource type="GDScript" id="GDScript_3wl1w"]
+script/source = "extends CharacterBody2D
+
+
+const SPEED = 300.0
+const JUMP_VELOCITY = -400.0
+
+
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction := Input.get_axis(\"ui_left\", \"ui_right\")
+	if direction:
+		velocity.x = direction * SPEED
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+	move_and_slide()
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3wl1w"]
+radius = 19.416489
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1008812688]
+script = ExtResource("2_player_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1995004135]
+position = Vector2(0, 0)
+scale = Vector2(0.4140625, 0.40625)
+texture = ExtResource("1_277ls")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=312350085]
+position = Vector2(0, 0)
+shape = SubResource("CircleShape2D_3wl1w")

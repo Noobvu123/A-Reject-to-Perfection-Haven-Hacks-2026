@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://0118id5sxwu8"]
+
+[ext_resource type="Texture2D" uid="uid://1c8yna0e4snd" path="res://Harbage.png" id="1_fveo5"]
+[ext_resource type="PackedScene" path="res://rat_level.tscn" id="2_y5lmw"]
+
+[node name="RatRun" unique_id=1814884515 instance=ExtResource("2_y5lmw")]
+
+[node name="Island2" parent="." index="166" unique_id=589348492]
+position = Vector2(709, 361)
+
+[node name="Island3" parent="." index="167" unique_id=565140483]
+position = Vector2(1153, 465)
+
+[node name="Sprite2D" type="Sprite2D" parent="Island3" index="8" unique_id=806092242]
+position = Vector2(600, 59.999992)
+scale = Vector2(0.3632813, 0.4414063)
+texture = ExtResource("1_fveo5")

@@ -1,0 +1,2624 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://level3.gd" id="1_j8bo8"]
+[ext_resource type="Texture2D" path="res://Screenshot 2026-11-14 at 3.04.08 PM.png" id="2_1jdk1"]
+[ext_resource type="PackedScene" path="res://character_body_2d2.tscn" id="3_6p2dc"]
+[ext_resource type="Script" path="res://character_body_2d_2.gd" id="4_fmu3g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qdpw7"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(160, 128, 128, 112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qkr1d"]
+size = Vector2(1152, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hysio"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w0x3y"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k1hko"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kcqp4"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_to1fv"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bn7dv"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ds5r"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_liaj6"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b60u5"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmy7e"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c2ule"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gujx"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hgb8y"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mifgm"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wojdu"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s6vqq"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wqcs"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_833wy"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghrvs"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvy75"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0tlw"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b4hnq"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eyo7k"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7i5o2"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ol0cb"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2xqp"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1o68h"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4yvj5"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_keufu"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_joegk"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8gss"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnq0t"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(638, 576, 64, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4gj3m"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3d0gt"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ck3l"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5kigb"]
+size = Vector2(240, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_430vx"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_slfm3"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vb2n7"]
+size = Vector2(560, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu0wl"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(640, 272, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cowob"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(1104, 248, 112, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfdnw"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(944, 96, 128, 136)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j8bo8"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(466, 104, 136, 136)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jdk1"]
+atlas = ExtResource("2_1jdk1")
+region = Rect2(466, 104, 136, 136)
+
+[node name="Level3" type="Node2D" unique_id=318147439]
+script = ExtResource("1_j8bo8")
+
+[node name="@Sprite2D@4" type="Sprite2D" parent="." unique_id=12673407]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@5" type="Sprite2D" parent="." unique_id=321929057]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@6" type="Sprite2D" parent="." unique_id=548595598]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@7" type="Sprite2D" parent="." unique_id=1977436507]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@8" type="Sprite2D" parent="." unique_id=1580145517]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@9" type="Sprite2D" parent="." unique_id=2082760894]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@10" type="Sprite2D" parent="." unique_id=1511153794]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@11" type="Sprite2D" parent="." unique_id=1009059665]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@12" type="Sprite2D" parent="." unique_id=283179006]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -1456)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@13" type="Sprite2D" parent="." unique_id=218843151]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@14" type="Sprite2D" parent="." unique_id=1850411309]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@15" type="Sprite2D" parent="." unique_id=2129183420]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@16" type="Sprite2D" parent="." unique_id=912782205]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@17" type="Sprite2D" parent="." unique_id=861359660]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@18" type="Sprite2D" parent="." unique_id=748538644]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@19" type="Sprite2D" parent="." unique_id=925142872]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@20" type="Sprite2D" parent="." unique_id=1013748076]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@21" type="Sprite2D" parent="." unique_id=1597190892]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -1344)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@22" type="Sprite2D" parent="." unique_id=774406381]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@23" type="Sprite2D" parent="." unique_id=647617128]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@24" type="Sprite2D" parent="." unique_id=386064020]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@25" type="Sprite2D" parent="." unique_id=1823572796]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@26" type="Sprite2D" parent="." unique_id=845707043]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@27" type="Sprite2D" parent="." unique_id=775559273]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@28" type="Sprite2D" parent="." unique_id=1966440298]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@29" type="Sprite2D" parent="." unique_id=656899221]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@30" type="Sprite2D" parent="." unique_id=743049008]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -1232)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@31" type="Sprite2D" parent="." unique_id=1449258494]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@32" type="Sprite2D" parent="." unique_id=822260578]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@33" type="Sprite2D" parent="." unique_id=1702028843]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@34" type="Sprite2D" parent="." unique_id=1962598729]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@35" type="Sprite2D" parent="." unique_id=868710408]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@36" type="Sprite2D" parent="." unique_id=1315775947]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@37" type="Sprite2D" parent="." unique_id=959035664]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@38" type="Sprite2D" parent="." unique_id=1152416347]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@39" type="Sprite2D" parent="." unique_id=2032267920]
+modulate = Color(1, 1, 0.9, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -1120)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@40" type="Sprite2D" parent="." unique_id=1056291747]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@41" type="Sprite2D" parent="." unique_id=493740167]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@42" type="Sprite2D" parent="." unique_id=1479000328]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@43" type="Sprite2D" parent="." unique_id=1307147897]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@44" type="Sprite2D" parent="." unique_id=751773799]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@45" type="Sprite2D" parent="." unique_id=1991513757]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@46" type="Sprite2D" parent="." unique_id=1084002721]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@47" type="Sprite2D" parent="." unique_id=1723354559]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@48" type="Sprite2D" parent="." unique_id=1814135485]
+modulate = Color(0.9800482, 0.98448193, 0.89168674, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -1008)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@49" type="Sprite2D" parent="." unique_id=1757977096]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@50" type="Sprite2D" parent="." unique_id=1076705426]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@51" type="Sprite2D" parent="." unique_id=419556671]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@52" type="Sprite2D" parent="." unique_id=625575808]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@53" type="Sprite2D" parent="." unique_id=1845604516]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@54" type="Sprite2D" parent="." unique_id=2006342111]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@55" type="Sprite2D" parent="." unique_id=765526104]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@56" type="Sprite2D" parent="." unique_id=1882161924]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@57" type="Sprite2D" parent="." unique_id=1683190646]
+modulate = Color(0.95575905, 0.96559036, 0.8815662, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -896)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@58" type="Sprite2D" parent="." unique_id=383223069]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@59" type="Sprite2D" parent="." unique_id=2138047085]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@60" type="Sprite2D" parent="." unique_id=1155594936]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@61" type="Sprite2D" parent="." unique_id=532088686]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@62" type="Sprite2D" parent="." unique_id=1626503351]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@63" type="Sprite2D" parent="." unique_id=257701662]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@64" type="Sprite2D" parent="." unique_id=1856087850]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@65" type="Sprite2D" parent="." unique_id=19156482]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@66" type="Sprite2D" parent="." unique_id=39263594]
+modulate = Color(0.9314699, 0.9466988, 0.8714458, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -784)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@67" type="Sprite2D" parent="." unique_id=1726726429]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@68" type="Sprite2D" parent="." unique_id=682501922]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@69" type="Sprite2D" parent="." unique_id=1010355092]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@70" type="Sprite2D" parent="." unique_id=264720551]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@71" type="Sprite2D" parent="." unique_id=811172517]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@72" type="Sprite2D" parent="." unique_id=801201616]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@73" type="Sprite2D" parent="." unique_id=1036626084]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@74" type="Sprite2D" parent="." unique_id=114225958]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@75" type="Sprite2D" parent="." unique_id=878181670]
+modulate = Color(0.9071807, 0.9278072, 0.86132526, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@76" type="Sprite2D" parent="." unique_id=1896825036]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@77" type="Sprite2D" parent="." unique_id=57828224]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@78" type="Sprite2D" parent="." unique_id=1717185312]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@79" type="Sprite2D" parent="." unique_id=649616335]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@80" type="Sprite2D" parent="." unique_id=630882083]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@81" type="Sprite2D" parent="." unique_id=77816946]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@82" type="Sprite2D" parent="." unique_id=1277411665]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@83" type="Sprite2D" parent="." unique_id=1837869475]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@84" type="Sprite2D" parent="." unique_id=1036867610]
+modulate = Color(0.88289154, 0.90891564, 0.8512048, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@85" type="Sprite2D" parent="." unique_id=1694968451]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@86" type="Sprite2D" parent="." unique_id=1668635940]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@87" type="Sprite2D" parent="." unique_id=924740073]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@88" type="Sprite2D" parent="." unique_id=2004012051]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@89" type="Sprite2D" parent="." unique_id=2030097131]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@90" type="Sprite2D" parent="." unique_id=576492459]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@91" type="Sprite2D" parent="." unique_id=1299776803]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@92" type="Sprite2D" parent="." unique_id=1288115401]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@93" type="Sprite2D" parent="." unique_id=389536956]
+modulate = Color(0.8586024, 0.8900241, 0.8410843, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@94" type="Sprite2D" parent="." unique_id=1116839362]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@95" type="Sprite2D" parent="." unique_id=1005175814]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@96" type="Sprite2D" parent="." unique_id=194756718]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@97" type="Sprite2D" parent="." unique_id=1376183028]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@98" type="Sprite2D" parent="." unique_id=790830254]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@99" type="Sprite2D" parent="." unique_id=746690558]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@100" type="Sprite2D" parent="." unique_id=1107782559]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@101" type="Sprite2D" parent="." unique_id=1684375180]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@102" type="Sprite2D" parent="." unique_id=841667232]
+modulate = Color(0.8343133, 0.87113255, 0.83096385, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@103" type="Sprite2D" parent="." unique_id=732034801]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@104" type="Sprite2D" parent="." unique_id=1559776216]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@105" type="Sprite2D" parent="." unique_id=1356109967]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@106" type="Sprite2D" parent="." unique_id=958083703]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@107" type="Sprite2D" parent="." unique_id=1357437975]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@108" type="Sprite2D" parent="." unique_id=312860675]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@109" type="Sprite2D" parent="." unique_id=1844664719]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@110" type="Sprite2D" parent="." unique_id=1127714642]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@111" type="Sprite2D" parent="." unique_id=1276671967]
+modulate = Color(0.8100241, 0.852241, 0.82084334, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@112" type="Sprite2D" parent="." unique_id=166183448]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@113" type="Sprite2D" parent="." unique_id=790203226]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@114" type="Sprite2D" parent="." unique_id=1504425958]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@115" type="Sprite2D" parent="." unique_id=2087551929]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@116" type="Sprite2D" parent="." unique_id=1404716544]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@117" type="Sprite2D" parent="." unique_id=1633230157]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@118" type="Sprite2D" parent="." unique_id=833307421]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@119" type="Sprite2D" parent="." unique_id=1148354319]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@120" type="Sprite2D" parent="." unique_id=1457591306]
+modulate = Color(0.78573495, 0.8333494, 0.8107229, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, -112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@121" type="Sprite2D" parent="." unique_id=2014846961]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@122" type="Sprite2D" parent="." unique_id=1549325188]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@123" type="Sprite2D" parent="." unique_id=366735566]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@124" type="Sprite2D" parent="." unique_id=1156595685]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@125" type="Sprite2D" parent="." unique_id=979276140]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@126" type="Sprite2D" parent="." unique_id=1478396047]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@127" type="Sprite2D" parent="." unique_id=1566553626]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@128" type="Sprite2D" parent="." unique_id=1877024790]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@129" type="Sprite2D" parent="." unique_id=1557136219]
+modulate = Color(0.76144576, 0.81445783, 0.8006024, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 0)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@130" type="Sprite2D" parent="." unique_id=1160494309]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@131" type="Sprite2D" parent="." unique_id=1106822657]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@132" type="Sprite2D" parent="." unique_id=2047110378]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@133" type="Sprite2D" parent="." unique_id=1131435902]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@134" type="Sprite2D" parent="." unique_id=2043836022]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@135" type="Sprite2D" parent="." unique_id=2003533503]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@136" type="Sprite2D" parent="." unique_id=1818557021]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@137" type="Sprite2D" parent="." unique_id=671775730]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@138" type="Sprite2D" parent="." unique_id=155260644]
+modulate = Color(0.7371566, 0.79556626, 0.7904819, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 112)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@139" type="Sprite2D" parent="." unique_id=1700995810]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@140" type="Sprite2D" parent="." unique_id=1758157235]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@141" type="Sprite2D" parent="." unique_id=1280150166]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@142" type="Sprite2D" parent="." unique_id=1186010918]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@143" type="Sprite2D" parent="." unique_id=348570717]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@144" type="Sprite2D" parent="." unique_id=111205604]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@145" type="Sprite2D" parent="." unique_id=1947883130]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@146" type="Sprite2D" parent="." unique_id=667459149]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@147" type="Sprite2D" parent="." unique_id=1999828480]
+modulate = Color(0.71286744, 0.77667475, 0.7803614, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 224)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@148" type="Sprite2D" parent="." unique_id=2023743782]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@149" type="Sprite2D" parent="." unique_id=985370845]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@150" type="Sprite2D" parent="." unique_id=690535460]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@151" type="Sprite2D" parent="." unique_id=702515763]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@152" type="Sprite2D" parent="." unique_id=1873495812]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@153" type="Sprite2D" parent="." unique_id=1433997360]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@154" type="Sprite2D" parent="." unique_id=889566483]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@155" type="Sprite2D" parent="." unique_id=824953646]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@156" type="Sprite2D" parent="." unique_id=619968908]
+modulate = Color(0.6885783, 0.7577832, 0.77024096, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 336)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@157" type="Sprite2D" parent="." unique_id=1517120114]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@158" type="Sprite2D" parent="." unique_id=554371748]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@159" type="Sprite2D" parent="." unique_id=29871954]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@160" type="Sprite2D" parent="." unique_id=1575552191]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@161" type="Sprite2D" parent="." unique_id=2037991518]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@162" type="Sprite2D" parent="." unique_id=7847025]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@163" type="Sprite2D" parent="." unique_id=995774038]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@164" type="Sprite2D" parent="." unique_id=1376034743]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@165" type="Sprite2D" parent="." unique_id=1343723073]
+modulate = Color(0.6642891, 0.7388916, 0.76012045, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 448)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@166" type="Sprite2D" parent="." unique_id=1499251245]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@167" type="Sprite2D" parent="." unique_id=1251869736]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@168" type="Sprite2D" parent="." unique_id=1885040333]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@169" type="Sprite2D" parent="." unique_id=232717987]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@170" type="Sprite2D" parent="." unique_id=1787717582]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@171" type="Sprite2D" parent="." unique_id=2019541841]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@172" type="Sprite2D" parent="." unique_id=570200005]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@173" type="Sprite2D" parent="." unique_id=1710824694]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@174" type="Sprite2D" parent="." unique_id=2078437923]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 560)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@175" type="Sprite2D" parent="." unique_id=1873639780]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(0, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@176" type="Sprite2D" parent="." unique_id=1253340924]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(128, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@177" type="Sprite2D" parent="." unique_id=1781768720]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(256, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@178" type="Sprite2D" parent="." unique_id=148876614]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(384, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@179" type="Sprite2D" parent="." unique_id=1576564867]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(512, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@180" type="Sprite2D" parent="." unique_id=2084734357]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(640, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@181" type="Sprite2D" parent="." unique_id=689889092]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(768, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@182" type="Sprite2D" parent="." unique_id=1325561913]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(896, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="@Sprite2D@183" type="Sprite2D" parent="." unique_id=625065551]
+modulate = Color(0.64, 0.72, 0.75, 1)
+z_index = -10
+texture_filter = 1
+position = Vector2(1024, 672)
+texture = SubResource("AtlasTexture_qdpw7")
+centered = false
+
+[node name="StartFloor" type="StaticBody2D" parent="." unique_id=1428953350]
+position = Vector2(0, 560)
+
+[node name="@CollisionShape2D@184" type="CollisionShape2D" parent="StartFloor" unique_id=1634942862]
+position = Vector2(576, 16)
+shape = SubResource("RectangleShape2D_qkr1d")
+
+[node name="@Sprite2D@185" type="Sprite2D" parent="StartFloor" unique_id=771421352]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@186" type="Sprite2D" parent="StartFloor" unique_id=1920290631]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@187" type="Sprite2D" parent="StartFloor" unique_id=796078447]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@188" type="Sprite2D" parent="StartFloor" unique_id=1124453248]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@189" type="Sprite2D" parent="StartFloor" unique_id=951429045]
+texture_filter = 1
+position = Vector2(256, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@190" type="Sprite2D" parent="StartFloor" unique_id=1141367036]
+texture_filter = 1
+position = Vector2(320, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@191" type="Sprite2D" parent="StartFloor" unique_id=837434275]
+texture_filter = 1
+position = Vector2(384, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@192" type="Sprite2D" parent="StartFloor" unique_id=343518198]
+texture_filter = 1
+position = Vector2(448, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@193" type="Sprite2D" parent="StartFloor" unique_id=302846540]
+texture_filter = 1
+position = Vector2(512, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@194" type="Sprite2D" parent="StartFloor" unique_id=402452905]
+texture_filter = 1
+position = Vector2(576, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@195" type="Sprite2D" parent="StartFloor" unique_id=740793005]
+texture_filter = 1
+position = Vector2(640, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@196" type="Sprite2D" parent="StartFloor" unique_id=714893316]
+texture_filter = 1
+position = Vector2(704, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@197" type="Sprite2D" parent="StartFloor" unique_id=803654477]
+texture_filter = 1
+position = Vector2(768, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@198" type="Sprite2D" parent="StartFloor" unique_id=134507464]
+texture_filter = 1
+position = Vector2(832, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@199" type="Sprite2D" parent="StartFloor" unique_id=231146947]
+texture_filter = 1
+position = Vector2(896, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@200" type="Sprite2D" parent="StartFloor" unique_id=494332402]
+texture_filter = 1
+position = Vector2(960, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@201" type="Sprite2D" parent="StartFloor" unique_id=1889196602]
+texture_filter = 1
+position = Vector2(1024, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@202" type="Sprite2D" parent="StartFloor" unique_id=450026991]
+texture_filter = 1
+position = Vector2(1088, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_hysio")
+centered = false
+
+[node name="@Sprite2D@203" type="Sprite2D" parent="StartFloor" unique_id=1087879423]
+texture_filter = 1
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@204" type="Sprite2D" parent="StartFloor" unique_id=1652764959]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@205" type="Sprite2D" parent="StartFloor" unique_id=1770376272]
+texture_filter = 1
+position = Vector2(224, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@206" type="Sprite2D" parent="StartFloor" unique_id=1310119624]
+texture_filter = 1
+position = Vector2(336, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@207" type="Sprite2D" parent="StartFloor" unique_id=190292342]
+texture_filter = 1
+position = Vector2(448, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@208" type="Sprite2D" parent="StartFloor" unique_id=1685861114]
+texture_filter = 1
+position = Vector2(560, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@209" type="Sprite2D" parent="StartFloor" unique_id=1595621264]
+texture_filter = 1
+position = Vector2(672, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@210" type="Sprite2D" parent="StartFloor" unique_id=1047223402]
+texture_filter = 1
+position = Vector2(784, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@211" type="Sprite2D" parent="StartFloor" unique_id=1898123277]
+texture_filter = 1
+position = Vector2(896, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@212" type="Sprite2D" parent="StartFloor" unique_id=661567302]
+texture_filter = 1
+position = Vector2(1008, 0)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="@Sprite2D@213" type="Sprite2D" parent="StartFloor" unique_id=1817719288]
+texture_filter = 1
+position = Vector2(1120, 0)
+scale = Vector2(0.2857143, 1)
+texture = SubResource("AtlasTexture_w0x3y")
+centered = false
+
+[node name="Step1" type="StaticBody2D" parent="." unique_id=2125827589]
+position = Vector2(240, 420)
+
+[node name="@CollisionShape2D@214" type="CollisionShape2D" parent="Step1" unique_id=1936971059]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_k1hko")
+one_way_collision = true
+
+[node name="@Sprite2D@215" type="Sprite2D" parent="Step1" unique_id=1944687438]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_kcqp4")
+centered = false
+
+[node name="@Sprite2D@216" type="Sprite2D" parent="Step1" unique_id=1346262551]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_kcqp4")
+centered = false
+
+[node name="@Sprite2D@217" type="Sprite2D" parent="Step1" unique_id=1256616044]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_kcqp4")
+centered = false
+
+[node name="@Sprite2D@218" type="Sprite2D" parent="Step1" unique_id=104278142]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_kcqp4")
+centered = false
+
+[node name="@Sprite2D@219" type="Sprite2D" parent="Step1" unique_id=98132812]
+texture_filter = 1
+texture = SubResource("AtlasTexture_to1fv")
+centered = false
+
+[node name="@Sprite2D@220" type="Sprite2D" parent="Step1" unique_id=1537653476]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_to1fv")
+centered = false
+
+[node name="@Sprite2D@221" type="Sprite2D" parent="Step1" unique_id=1510207487]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_to1fv")
+centered = false
+
+[node name="Number" type="Label" parent="Step1" unique_id=44261061]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "01"
+
+[node name="Step2" type="StaticBody2D" parent="." unique_id=1641533050]
+position = Vector2(660, 280)
+
+[node name="@CollisionShape2D@222" type="CollisionShape2D" parent="Step2" unique_id=1200189332]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_bn7dv")
+one_way_collision = true
+
+[node name="Number" type="Label" parent="Step2" unique_id=1829538928]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "02"
+
+[node name="@Sprite2D@4" type="Sprite2D" parent="Step2" unique_id=1914540899]
+texture_filter = 1
+texture = SubResource("AtlasTexture_7ds5r")
+centered = false
+
+[node name="@Sprite2D@5" type="Sprite2D" parent="Step2" unique_id=1288008956]
+texture_filter = 1
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_liaj6")
+centered = false
+
+[node name="@Sprite2D@6" type="Sprite2D" parent="Step2" unique_id=2068551072]
+texture_filter = 1
+position = Vector2(128, 0)
+texture = SubResource("AtlasTexture_b60u5")
+centered = false
+
+[node name="@Sprite2D@7" type="Sprite2D" parent="Step2" unique_id=299553936]
+texture_filter = 1
+position = Vector2(192, 0)
+scale = Vector2(0.75, 1)
+texture = SubResource("AtlasTexture_kmy7e")
+centered = false
+
+[node name="Step3" type="StaticBody2D" parent="." unique_id=1700592125]
+position = Vector2(240, 140)
+
+[node name="@CollisionShape2D@230" type="CollisionShape2D" parent="Step3" unique_id=1960603587]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_c2ule")
+one_way_collision = true
+
+[node name="@Sprite2D@231" type="Sprite2D" parent="Step3" unique_id=1165453653]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_4gujx")
+centered = false
+
+[node name="@Sprite2D@232" type="Sprite2D" parent="Step3" unique_id=1343573952]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_4gujx")
+centered = false
+
+[node name="@Sprite2D@233" type="Sprite2D" parent="Step3" unique_id=822563704]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_4gujx")
+centered = false
+
+[node name="@Sprite2D@234" type="Sprite2D" parent="Step3" unique_id=2033603677]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_4gujx")
+centered = false
+
+[node name="@Sprite2D@235" type="Sprite2D" parent="Step3" unique_id=250987099]
+texture_filter = 1
+texture = SubResource("AtlasTexture_hgb8y")
+centered = false
+
+[node name="@Sprite2D@236" type="Sprite2D" parent="Step3" unique_id=695759093]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_hgb8y")
+centered = false
+
+[node name="@Sprite2D@237" type="Sprite2D" parent="Step3" unique_id=2134516683]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_hgb8y")
+centered = false
+
+[node name="Number" type="Label" parent="Step3" unique_id=125331155]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "03"
+
+[node name="Step4" type="StaticBody2D" parent="." unique_id=708255167]
+position = Vector2(660, 0)
+
+[node name="@CollisionShape2D@238" type="CollisionShape2D" parent="Step4" unique_id=2125734025]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_mifgm")
+one_way_collision = true
+
+[node name="@Sprite2D@239" type="Sprite2D" parent="Step4" unique_id=1254665897]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_wojdu")
+centered = false
+
+[node name="@Sprite2D@240" type="Sprite2D" parent="Step4" unique_id=1420678193]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_wojdu")
+centered = false
+
+[node name="@Sprite2D@241" type="Sprite2D" parent="Step4" unique_id=614253353]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_wojdu")
+centered = false
+
+[node name="@Sprite2D@242" type="Sprite2D" parent="Step4" unique_id=1245661248]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_wojdu")
+centered = false
+
+[node name="@Sprite2D@243" type="Sprite2D" parent="Step4" unique_id=2051720723]
+texture_filter = 1
+texture = SubResource("AtlasTexture_s6vqq")
+centered = false
+
+[node name="@Sprite2D@244" type="Sprite2D" parent="Step4" unique_id=1815214674]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_s6vqq")
+centered = false
+
+[node name="@Sprite2D@245" type="Sprite2D" parent="Step4" unique_id=1130145228]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_s6vqq")
+centered = false
+
+[node name="Number" type="Label" parent="Step4" unique_id=2023484041]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "04"
+
+[node name="Step5" type="StaticBody2D" parent="." unique_id=1436809082]
+position = Vector2(240, -140)
+
+[node name="@CollisionShape2D@246" type="CollisionShape2D" parent="Step5" unique_id=654379258]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_0wqcs")
+one_way_collision = true
+
+[node name="Number" type="Label" parent="Step5" unique_id=447740442]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "05 - CHECKPOINT"
+
+[node name="@Sprite2D@8" type="Sprite2D" parent="Step5" unique_id=1843867086]
+texture_filter = 1
+texture = SubResource("AtlasTexture_833wy")
+centered = false
+
+[node name="@Sprite2D@9" type="Sprite2D" parent="Step5" unique_id=2056441462]
+texture_filter = 1
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_ghrvs")
+centered = false
+
+[node name="@Sprite2D@10" type="Sprite2D" parent="Step5" unique_id=1351324085]
+texture_filter = 1
+position = Vector2(128, 0)
+texture = SubResource("AtlasTexture_jvy75")
+centered = false
+
+[node name="@Sprite2D@11" type="Sprite2D" parent="Step5" unique_id=1605989350]
+texture_filter = 1
+position = Vector2(192, 0)
+scale = Vector2(0.75, 1)
+texture = SubResource("AtlasTexture_g0tlw")
+centered = false
+
+[node name="Step6" type="StaticBody2D" parent="." unique_id=792871894]
+position = Vector2(660, -280)
+
+[node name="@CollisionShape2D@254" type="CollisionShape2D" parent="Step6" unique_id=2062667538]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_b4hnq")
+one_way_collision = true
+
+[node name="@Sprite2D@255" type="Sprite2D" parent="Step6" unique_id=1590658516]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_eyo7k")
+centered = false
+
+[node name="@Sprite2D@256" type="Sprite2D" parent="Step6" unique_id=697646790]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_eyo7k")
+centered = false
+
+[node name="@Sprite2D@257" type="Sprite2D" parent="Step6" unique_id=1799324787]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_eyo7k")
+centered = false
+
+[node name="@Sprite2D@258" type="Sprite2D" parent="Step6" unique_id=27637758]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_eyo7k")
+centered = false
+
+[node name="@Sprite2D@259" type="Sprite2D" parent="Step6" unique_id=1988575152]
+texture_filter = 1
+texture = SubResource("AtlasTexture_7i5o2")
+centered = false
+
+[node name="@Sprite2D@260" type="Sprite2D" parent="Step6" unique_id=445098951]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_7i5o2")
+centered = false
+
+[node name="@Sprite2D@261" type="Sprite2D" parent="Step6" unique_id=1856463796]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_7i5o2")
+centered = false
+
+[node name="Number" type="Label" parent="Step6" unique_id=1572603863]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "06"
+
+[node name="Step7" type="StaticBody2D" parent="." unique_id=1987870911]
+position = Vector2(240, -420)
+
+[node name="@CollisionShape2D@262" type="CollisionShape2D" parent="Step7" unique_id=1802432068]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_ol0cb")
+one_way_collision = true
+
+[node name="@Sprite2D@263" type="Sprite2D" parent="Step7" unique_id=73847248]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_o2xqp")
+centered = false
+
+[node name="@Sprite2D@264" type="Sprite2D" parent="Step7" unique_id=1192223188]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_o2xqp")
+centered = false
+
+[node name="@Sprite2D@265" type="Sprite2D" parent="Step7" unique_id=1270182613]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_o2xqp")
+centered = false
+
+[node name="@Sprite2D@266" type="Sprite2D" parent="Step7" unique_id=1802198828]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_o2xqp")
+centered = false
+
+[node name="@Sprite2D@267" type="Sprite2D" parent="Step7" unique_id=890156846]
+texture_filter = 1
+texture = SubResource("AtlasTexture_1o68h")
+centered = false
+
+[node name="@Sprite2D@268" type="Sprite2D" parent="Step7" unique_id=1277959689]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_1o68h")
+centered = false
+
+[node name="@Sprite2D@269" type="Sprite2D" parent="Step7" unique_id=1377202967]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_1o68h")
+centered = false
+
+[node name="Number" type="Label" parent="Step7" unique_id=971366988]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "07"
+
+[node name="Step8" type="StaticBody2D" parent="." unique_id=113714899]
+position = Vector2(660, -560)
+
+[node name="@CollisionShape2D@270" type="CollisionShape2D" parent="Step8" unique_id=1536726415]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_4yvj5")
+one_way_collision = true
+
+[node name="Number" type="Label" parent="Step8" unique_id=1704642367]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "08"
+
+[node name="@Sprite2D@12" type="Sprite2D" parent="Step8" unique_id=1160647707]
+texture_filter = 1
+texture = SubResource("AtlasTexture_keufu")
+centered = false
+
+[node name="@Sprite2D@13" type="Sprite2D" parent="Step8" unique_id=1601838767]
+texture_filter = 1
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_joegk")
+centered = false
+
+[node name="@Sprite2D@14" type="Sprite2D" parent="Step8" unique_id=1526445984]
+texture_filter = 1
+position = Vector2(128, 0)
+texture = SubResource("AtlasTexture_m8gss")
+centered = false
+
+[node name="@Sprite2D@15" type="Sprite2D" parent="Step8" unique_id=1323924497]
+texture_filter = 1
+position = Vector2(192, 0)
+scale = Vector2(0.75, 1)
+texture = SubResource("AtlasTexture_wnq0t")
+centered = false
+
+[node name="Step9" type="StaticBody2D" parent="." unique_id=1276050098]
+position = Vector2(240, -700)
+
+[node name="@CollisionShape2D@278" type="CollisionShape2D" parent="Step9" unique_id=313844476]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_4gj3m")
+one_way_collision = true
+
+[node name="@Sprite2D@279" type="Sprite2D" parent="Step9" unique_id=1529115182]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_3d0gt")
+centered = false
+
+[node name="@Sprite2D@280" type="Sprite2D" parent="Step9" unique_id=1217113461]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_3d0gt")
+centered = false
+
+[node name="@Sprite2D@281" type="Sprite2D" parent="Step9" unique_id=1131868082]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_3d0gt")
+centered = false
+
+[node name="@Sprite2D@282" type="Sprite2D" parent="Step9" unique_id=359302065]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_3d0gt")
+centered = false
+
+[node name="@Sprite2D@283" type="Sprite2D" parent="Step9" unique_id=1531293571]
+texture_filter = 1
+texture = SubResource("AtlasTexture_1ck3l")
+centered = false
+
+[node name="@Sprite2D@284" type="Sprite2D" parent="Step9" unique_id=1865032630]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_1ck3l")
+centered = false
+
+[node name="@Sprite2D@285" type="Sprite2D" parent="Step9" unique_id=1332840165]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_1ck3l")
+centered = false
+
+[node name="Number" type="Label" parent="Step9" unique_id=2021934187]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "09"
+
+[node name="Step10" type="StaticBody2D" parent="." unique_id=614392645]
+position = Vector2(660, -840)
+
+[node name="@CollisionShape2D@286" type="CollisionShape2D" parent="Step10" unique_id=1635439753]
+position = Vector2(120, 16)
+shape = SubResource("RectangleShape2D_5kigb")
+one_way_collision = true
+
+[node name="@Sprite2D@287" type="Sprite2D" parent="Step10" unique_id=224789235]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_430vx")
+centered = false
+
+[node name="@Sprite2D@288" type="Sprite2D" parent="Step10" unique_id=1986260604]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_430vx")
+centered = false
+
+[node name="@Sprite2D@289" type="Sprite2D" parent="Step10" unique_id=528195883]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_430vx")
+centered = false
+
+[node name="@Sprite2D@290" type="Sprite2D" parent="Step10" unique_id=2048519658]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_430vx")
+centered = false
+
+[node name="@Sprite2D@291" type="Sprite2D" parent="Step10" unique_id=1613911449]
+texture_filter = 1
+texture = SubResource("AtlasTexture_slfm3")
+centered = false
+
+[node name="@Sprite2D@292" type="Sprite2D" parent="Step10" unique_id=996642658]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_slfm3")
+centered = false
+
+[node name="@Sprite2D@293" type="Sprite2D" parent="Step10" unique_id=1602987945]
+texture_filter = 1
+position = Vector2(224, 0)
+scale = Vector2(0.14285715, 1)
+texture = SubResource("AtlasTexture_slfm3")
+centered = false
+
+[node name="Number" type="Label" parent="Step10" unique_id=1992380521]
+offset_left = 8.0
+offset_top = 34.0
+offset_right = 8.0
+offset_bottom = 34.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "10"
+
+[node name="Step11" type="StaticBody2D" parent="." unique_id=468458023]
+position = Vector2(240, -1000)
+
+[node name="@CollisionShape2D@294" type="CollisionShape2D" parent="Step11" unique_id=1086860669]
+position = Vector2(280, 16)
+shape = SubResource("RectangleShape2D_vb2n7")
+one_way_collision = true
+
+[node name="@Sprite2D@295" type="Sprite2D" parent="Step11" unique_id=796480939]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@296" type="Sprite2D" parent="Step11" unique_id=1469776774]
+texture_filter = 1
+position = Vector2(64, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@297" type="Sprite2D" parent="Step11" unique_id=1768607878]
+texture_filter = 1
+position = Vector2(128, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@298" type="Sprite2D" parent="Step11" unique_id=797957367]
+texture_filter = 1
+position = Vector2(192, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@299" type="Sprite2D" parent="Step11" unique_id=1173617601]
+texture_filter = 1
+position = Vector2(256, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@300" type="Sprite2D" parent="Step11" unique_id=311010022]
+texture_filter = 1
+position = Vector2(320, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@301" type="Sprite2D" parent="Step11" unique_id=988484243]
+texture_filter = 1
+position = Vector2(384, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@302" type="Sprite2D" parent="Step11" unique_id=228054059]
+texture_filter = 1
+position = Vector2(448, 16)
+scale = Vector2(1, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@303" type="Sprite2D" parent="Step11" unique_id=1467732876]
+texture_filter = 1
+position = Vector2(512, 16)
+scale = Vector2(0.75, 0.5)
+texture = SubResource("AtlasTexture_xu0wl")
+centered = false
+
+[node name="@Sprite2D@304" type="Sprite2D" parent="Step11" unique_id=1321163546]
+texture_filter = 1
+texture = SubResource("AtlasTexture_cowob")
+centered = false
+
+[node name="@Sprite2D@305" type="Sprite2D" parent="Step11" unique_id=1719091052]
+texture_filter = 1
+position = Vector2(112, 0)
+texture = SubResource("AtlasTexture_cowob")
+centered = false
+
+[node name="@Sprite2D@306" type="Sprite2D" parent="Step11" unique_id=962695161]
+texture_filter = 1
+position = Vector2(224, 0)
+texture = SubResource("AtlasTexture_cowob")
+centered = false
+
+[node name="@Sprite2D@307" type="Sprite2D" parent="Step11" unique_id=1348783492]
+texture_filter = 1
+position = Vector2(336, 0)
+texture = SubResource("AtlasTexture_cowob")
+centered = false
+
+[node name="@Sprite2D@308" type="Sprite2D" parent="Step11" unique_id=1034776222]
+texture_filter = 1
+position = Vector2(448, 0)
+texture = SubResource("AtlasTexture_cowob")
+centered = false
+
+[node name="Surface" type="Label" parent="." unique_id=1608306190]
+offset_left = 300.0
+offset_top = -1100.0
+offset_right = 301.0
+offset_bottom = -1077.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 24
+text = "SEWER EXIT"
+
+[node name="StartHint" type="Label" parent="." unique_id=853514607]
+offset_left = 650.0
+offset_top = 392.0
+offset_right = 650.0
+offset_bottom = 392.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 18
+text = "THE WIDE RAT SHAFT
+Use the ledge edges to line up your charge.
+Rise above each rat, then land on its head."
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1008812688 instance=ExtResource("3_6p2dc")]
+z_index = 5
+position = Vector2(96, 530)
+script = ExtResource("4_fmu3g")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=715988412]
+position = Vector2(0, -125)
+limit_left = 0
+limit_top = -1456
+limit_right = 1152
+limit_bottom = 768
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=77563872]
+
+[node name="Status" type="Label" parent="HUD" unique_id=473079328]
+offset_left = 18.0
+offset_top = 14.0
+offset_right = 18.0
+offset_bottom = 14.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 20
+text = "LEVEL 3 | THE WIDE RAT SHAFT"
+
+[node name="Controls" type="Label" parent="HUD" unique_id=1164494569]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -116.0
+offset_right = 18.0
+offset_bottom = -90.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "Hold S/Down: charge | Release: launch | A/D or arrows: steer | R: restart"
+
+[node name="Charge" type="ProgressBar" parent="HUD" unique_id=240553226]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -52.0
+offset_right = 198.0
+offset_bottom = -28.0
+show_percentage = false
+
+[node name="ChargeLabel" type="Label" parent="HUD" unique_id=1194900817]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -82.0
+offset_right = 240.0
+offset_bottom = -58.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 16
+text = "BOUNCE CHARGE"
+
+[node name="Ladder" type="Node2D" parent="." unique_id=1098069970]
+position = Vector2(660, -1000)
+
+[node name="@Sprite2D@310" type="Sprite2D" parent="Ladder" unique_id=707642380]
+texture_filter = 1
+position = Vector2(-64, -136)
+texture = SubResource("AtlasTexture_kfdnw")
+centered = false
+
+[node name="LadderHint" type="Label" parent="." unique_id=1494526694]
+offset_left = 470.0
+offset_top = -1180.0
+offset_right = 470.0
+offset_bottom = -1180.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 18
+text = "UP: CLIMB TO NEXT LEVEL"
+
+[node name="WallLights" type="Node2D" parent="." unique_id=993257206]
+
+[node name="@Sprite2D@4" type="Sprite2D" parent="WallLights" unique_id=1354180272]
+z_index = -8
+texture_filter = 1
+position = Vector2(100, -650)
+texture = SubResource("AtlasTexture_j8bo8")
+
+[node name="@Sprite2D@5" type="Sprite2D" parent="WallLights" unique_id=1480543503]
+z_index = -8
+texture_filter = 1
+position = Vector2(940, -140)
+texture = SubResource("AtlasTexture_1jdk1")

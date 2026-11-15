@@ -1,0 +1,164 @@
+[gd_scene format=3 uid="uid://dwm6a35aoqmap"]
+
+[ext_resource type="Script" path="res://title_screen.gd" id="1_ig5kc"]
+[ext_resource type="Texture2D" uid="uid://u7qqcp25ytu2" path="res://Screenshot 2026-11-14 at 3.04.08 PM.png" id="2_05l2w"]
+[ext_resource type="Texture2D" uid="uid://b2h05lslf2wju" path="res://Slime_still.png" id="3_hafda"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpml5"]
+atlas = ExtResource("2_05l2w")
+region = Rect2(160, 128, 128, 112)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jqemp"]
+content_margin_top = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.65, 0.94, 0.3, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.24, 0.46, 0.17, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_013yr"]
+content_margin_top = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.46, 0.73, 0.22, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.16, 0.3, 0.1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8vmu4"]
+content_margin_top = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.79, 1, 0.47, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.86, 1, 0.72, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xfn3p"]
+content_margin_top = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 0.86, 0.45, 1)
+
+[node name="TitleScreen" type="Control" unique_id=1024080267]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig5kc")
+
+[node name="SewerBackground" type="TextureRect" parent="." unique_id=1857866199]
+modulate = Color(0.35, 0.46, 0.48, 1)
+texture_filter = 1
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("AtlasTexture_tpml5")
+stretch_mode = 1
+
+[node name="theSafeArea" type="MarginContainer" parent="." unique_id=64317491]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="Center" type="CenterContainer" parent="theSafeArea" unique_id=852867392]
+layout_mode = 2
+
+[node name="Menu" type="VBoxContainer" parent="theSafeArea/Center" unique_id=1603099771]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="theSafeArea/Center/Menu" unique_id=534429784]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.73, 1, 0.42, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.03, 0.04, 1)
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 48
+text = "A REJECT TO
+PERFECTION"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="theSafeArea/Center/Menu" unique_id=658846339]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.96, 0.95, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.03, 0.04, 1)
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 20
+text = "Thank you for playing!"
+horizontal_alignment = 1
+
+[node name="Slime" type="TextureRect" parent="theSafeArea/Center/Menu" unique_id=179236127]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(0, 84)
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("3_hafda")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Button" type="Button" parent="theSafeArea/Center/Menu" unique_id=1817707176]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(480, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.12, 0.09, 1)
+theme_override_colors/font_focus_color = Color(0.05, 0.12, 0.09, 1)
+theme_override_colors/font_pressed_color = Color(0.05, 0.12, 0.09, 1)
+theme_override_colors/font_hover_color = Color(0.05, 0.12, 0.09, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqemp")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_013yr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8vmu4")
+theme_override_styles/focus = SubResource("StyleBoxFlat_xfn3p")
+text = "PLAY"
+
+[node name="LevelsButton" type="Button" parent="theSafeArea/Center/Menu"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(480, 46)
+theme_override_font_sizes/font_size = 20
+text = "LEVELS"
+
+[node name="ResetProgress" type="Button" parent="theSafeArea/Center/Menu"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(480, 44)
+theme_override_font_sizes/font_size = 18
+text = "RESET PROGRESS"
+
+[node name="Hint" type="Label" parent="theSafeArea/Center/Menu" unique_id=1775183432]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.86, 0.92, 0.9, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.03, 0.04, 1)
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 16
+text = "Click Play or press Enter / Space
+A/D or arrows: move  |  W / Up / Space: jump
+Hold S / Down, then release: charged bounce"
+horizontal_alignment = 1
+
+[node name="Footer" type="Label" parent="theSafeArea/Center/Menu" unique_id=249437657]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.65, 0.77, 0.74, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.03, 0.04, 1)
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 14
+text = "BOUNCE BACK  --  HAVEN HACKS 2026"
+horizontal_alignment = 1
